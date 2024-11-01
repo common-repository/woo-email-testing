@@ -1,0 +1,88 @@
+/*
+* === Templates page ===
+*/
+
+#portfolio .container {
+    width: 100%;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#portfolio .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#portfolio .product {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#portfolio .product a {
+    text-decoration: none;
+
+}
+
+#portfolio .product img {
+    width: 230px;
+    margin-bottom: 0.92857143em;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    backface-visibility: hidden;
+}
+#portfolio .product a:hover img {
+    transform: translate3d(0, -5px, 0);
+    -webkit-transform: translate3d(0, -5px, 0);
+}
+
+#portfolio .boxed {
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    padding: 1.85714286em;
+}
+
+#portfolio h5 {
+    font-size: 14px;
+    text-align: center;
+    color: #252525;
+    font-weight: 600;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04);
+}
+
+/*
+* === Email Testing Page ===
+*/
+
+.testing {
+    clear: both;
+    height: 60px;
+    margin: 6px 0 4px;
+    vertical-align: middle;
+}
+
+.testing select,
+.testing input[type="text"] {
+    height: 32px;
+    min-width: 180px;
+}
+
+.nolabel input[type="submit"],
+.nolabel button {
+    height: 32px !important;
+    margin-top: 20px !important;
+}
+
+.alignleft {
+    text-align: left;
+}
+.actions {
+    padding: 2px 8px 0 0;
+}
